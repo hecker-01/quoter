@@ -1,0 +1,60 @@
+{
+  "name": "quoter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "node --test",
+    "update:emojis": "node scripts/update-emojis.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A discord app that quotes message into an image, and sends it to the user.",
+  "dependencies": {
+    "@canvas-fonts/papyrus": "^1.0.4",
+    "@discordjs/rest": "^2.6.1",
+    "@fontsource/bruno-ace-sc": "^5.3.0",
+    "@fontsource/castoro-titling": "^5.3.0",
+    "@fontsource/cherry-bomb-one": "^5.3.0",
+    "@fontsource/dancing-script": "^5.3.0",
+    "@fontsource/dela-gothic-one": "^5.3.0",
+    "@fontsource/dotgothic16": "^5.3.0",
+    "@fontsource/exo-2": "^5.3.0",
+    "@fontsource/hachi-maru-pop": "^5.3.0",
+    "@fontsource/inconsolata": "^5.3.0",
+    "@fontsource/m-plus-rounded-1c": "^5.3.0",
+    "@fontsource/poltawski-nowy": "^5.3.0",
+    "@fontsource/rampart-one": "^5.3.0",
+    "@fontsource/reggae-one": "^5.3.0",
+    "@fontsource/rocknroll-one": "^5.3.0",
+    "@fontsource/vina-sans": "^5.3.0",
+    "@fontsource/yuji-syuku": "^5.3.0",
+    "@fontsource/yusei-magic": "^5.3.0",
+    "@fontsource/zen-old-mincho": "^5.3.0",
+    "@napi-rs/canvas": "^1.0.0",
+    "axios": "^1.17.0",
+    "discord-api-types": "^0.38.48",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "emoji-regex": "^10.6.0",
+    "gif-encoder-2": "^1.0.5",
+    "glob": "^14.0.6",
+    "path": "^0.12.7",
+    "punycode": "^2.3.1",
+    "twemoji": "^14.0.2"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "nodemon": "^3.1.14"
+  },
+  "overrides": {
+    "glob": "$glob",
+    "minimatch": "^11.0.8"
+  }
+}
