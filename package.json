@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "description": "A discord app that quotes message into an image, and sends it to the user.",
   "dependencies": {
     "@canvas-fonts/papyrus": "^1.0.4",

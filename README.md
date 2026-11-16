@@ -74,3 +74,9 @@ npm run update:emojis
 - GIFs have 256 colors, so soft gradients show banding
 - Custom colors and sizes are kept in memory, so a restart forgets them and older quotes fall back to the theme defaults
 - Lyric style is its own layout, so curved blend and magik do nothing there
+
+## License
+
+Quoter is free software, licensed under the [GNU General Public License v3.0 or later](LICENSE) (`GPL-3.0-or-later`): you can redistribute it and/or modify it under the terms of the GPL as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. It comes with no warranty.
+
+Third-party assets keep their own licenses: the emoji graphics are [Twemoji](https://github.com/jdecked/twemoji) by Twitter, Inc. and other contributors, licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), and the bundled Liberation Sans font comes with its own license in [`Fonts/LICENSE`](Fonts/LICENSE).
